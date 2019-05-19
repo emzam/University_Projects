@@ -1,0 +1,19 @@
+O - notasjon:
+
+REALIZABILITY:
+Min cycle() metode:
+    O(n) + O(n) + O(n^2) + O(n) = O(n^2 + n) = O(n^2).
+
+OPTIMAL TIME SCHEDULE:
+Min printALL() metode:
+    O(n * (n + n)) + O(n * n) = O(2n^2 + n2) = O(3n^2) = O(n^2).
+
+LATEST START:
+Min setLatestLastNodes() metode og setLateststart() metode:
+    setLatestLastNodes():
+        O(n + n + n) = O(3n) = O(n).
+    setLateststart()
+        O(n * n) = O(n^2).
+
+SLACK:
+    konstant.

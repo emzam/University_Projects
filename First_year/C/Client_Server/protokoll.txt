@@ -1,0 +1,29 @@
+PROTOKOLLBESKRIVELSE AV MELDINGER SOM BLIR SENDT TIL SERVER FRA BRUKERINPUT
+
+Her har jeg valgt å bare bruke 2 bytes, istedenfor de 4 vi har til
+disposisjon. Det betyr at det er en short (maxverdi 65535).
+
+MERK AT alle verdier som blir sendt til server blir først htonset fra client-
+siden, deretter ntohset fra serversiden. Dette er for å ta hensyn til om
+maskinene som kommuniserer med hverandre via TCP er big-endian til
+little-endian og vice-versa.
+
+- Hvis brukeren vil ha én jobb sendt fra server, blir "toServer" variabelen
+  satt lik 65001. Denne blir sendt til server (som igjen dekrypterer og leser).
+
+- Hvis brukeren vil ha X antall jobber sendt fra server, blir "toServer"
+  variabelen satt lik det antallet brukeren skriver inn. I og med at jeg bruker
+  2 bytes, blir det her sjekket og forsikret at brukeren ikke kan skrive mer
+  enn 65000 som antall. Ergo, kan brukeren bare hente MAX 65000 jobber om
+  gangen. Dette er fordi jeg bruker de fire neste tallene etter 65000
+  for kommandoer.
+
+- Hvis brukeren vil hente alle jobber, blir "toServer" variabelen satt lik
+  65002 og sendt til server.
+
+- Ellers blir det feilsjekket hele tiden, og hvis feilen er pga. noe som er
+  "riktig", eller om bruker taster [4] Avslutt program, blir "toServer"
+  variabelen satt lik 65003 og sendt til server for å gi beskjed om at clienten
+  terminerer riktig.
+  Hvis derimot, at noe går galt, blir "toServer" variabelen satt lik 65004 og
+  sendt videre til server om at clienten terminerer pga. en feil.

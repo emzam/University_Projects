@@ -1,0 +1,71 @@
+javac *.java
+java Main
+Søk (q for å avslutte): "achiev" finnes ikke!
+Under er det vist lignende ord (om det er tomt, ligner ingen ord):
+- achive
+- achier
+- achieve
+
+Søk (q for å avslutte): "achiese" finnes ikke!
+Under er det vist lignende ord (om det er tomt, ligner ingen ord):
+- achieve
+- achiest
+- achinese
+
+Søk (q for å avslutte): "achievee" finnes ikke!
+Under er det vist lignende ord (om det er tomt, ligner ingen ord):
+- achieved
+- achiever
+- achieves
+- achieve
+
+Søk (q for å avslutte): "ahcieve" finnes ikke!
+Under er det vist lignende ord (om det er tomt, ligner ingen ord):
+- achieve
+
+Søk (q for å avslutte): 
+Max dybde i treet: 36
+
+Dybde 0: 1 noder
+Dybde 1: 2 noder
+Dybde 2: 4 noder
+Dybde 3: 8 noder
+Dybde 4: 16 noder
+Dybde 5: 32 noder
+Dybde 6: 64 noder
+Dybde 7: 121 noder
+Dybde 8: 218 noder
+Dybde 9: 383 noder
+Dybde 10: 628 noder
+Dybde 11: 990 noder
+Dybde 12: 1513 noder
+Dybde 13: 2208 noder
+Dybde 14: 2949 noder
+Dybde 15: 3889 noder
+Dybde 16: 4772 noder
+Dybde 17: 5670 noder
+Dybde 18: 6251 noder
+Dybde 19: 6688 noder
+Dybde 20: 6690 noder
+Dybde 21: 6448 noder
+Dybde 22: 5890 noder
+Dybde 23: 5101 noder
+Dybde 24: 4244 noder
+Dybde 25: 3254 noder
+Dybde 26: 2395 noder
+Dybde 27: 1789 noder
+Dybde 28: 1177 noder
+Dybde 29: 705 noder
+Dybde 30: 429 noder
+Dybde 31: 236 noder
+Dybde 32: 138 noder
+Dybde 33: 60 noder
+Dybde 34: 25 noder
+Dybde 35: 9 noder
+Dybde 36: 3 noder
+
+Gjennomsnittlige dybden av alt i treet (avrundet) er: 19.6508
+
+Første ordet er: abactinally
+Siste ordet er: darndests
+Programmet avsluttes.

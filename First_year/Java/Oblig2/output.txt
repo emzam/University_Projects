@@ -1,0 +1,598 @@
+Time: 0
+               Starting: 5
+          Current staff: 2
+
+Time: 4
+               Finished: 5
+               Starting: 1
+               Starting: 6
+          Current staff: 4
+
+Time: 6
+               Finished: 6
+          Current staff: 2
+
+Time: 8
+               Finished: 1
+               Starting: 2
+          Current staff: 4
+
+Time: 14
+               Finished: 2
+               Starting: 3
+               Starting: 4
+               Starting: 7
+          Current staff: 7
+
+Time: 15
+               Finished: 3
+               Finished: 4
+          Current staff: 2
+
+Time: 18
+               Finished: 7
+               Starting: 8
+          Current staff: 4
+
+Time: 22
+               Finished: 8
+
+**** Shortest possible project excecution is 22 ****
+
+
+____________________________________________
+
+ID:                   |1
+Navn:                 |Build-walls
+Tid som trengs:       |4
+Manpower som trengs:  |2
+Tidligst startstid:   |4
+Senest startstid:     |4
+Slack:                |0
+Avhengige tasks (ID): |2. 3. 
+____________________________________________
+
+ID:                   |2
+Navn:                 |Build-roofs
+Tid som trengs:       |6
+Manpower som trengs:  |4
+Tidligst startstid:   |8
+Senest startstid:     |8
+Slack:                |0
+Avhengige tasks (ID): |3. 4. 7. 
+____________________________________________
+
+ID:                   |3
+Navn:                 |Put-on-wallpapers
+Tid som trengs:       |1
+Manpower som trengs:  |2
+Tidligst startstid:   |14
+Senest startstid:     |17
+Slack:                |3
+Avhengige tasks (ID): |8. 
+____________________________________________
+
+ID:                   |4
+Navn:                 |Put-on-tiles
+Tid som trengs:       |1
+Manpower som trengs:  |3
+Tidligst startstid:   |14
+Senest startstid:     |21
+Slack:                |7
+Avhengige tasks (ID): |Ingen.
+____________________________________________
+
+ID:                   |5
+Navn:                 |Build-foundation
+Tid som trengs:       |4
+Manpower som trengs:  |2
+Tidligst startstid:   |0
+Senest startstid:     |0
+Slack:                |0
+Avhengige tasks (ID): |1. 6. 
+____________________________________________
+
+ID:                   |6
+Navn:                 |Make-floor
+Tid som trengs:       |2
+Manpower som trengs:  |2
+Tidligst startstid:   |4
+Senest startstid:     |12
+Slack:                |8
+Avhengige tasks (ID): |7. 
+____________________________________________
+
+ID:                   |7
+Navn:                 |Put-carpet-floor
+Tid som trengs:       |4
+Manpower som trengs:  |2
+Tidligst startstid:   |14
+Senest startstid:     |14
+Slack:                |0
+Avhengige tasks (ID): |8. 
+____________________________________________
+
+ID:                   |8
+Navn:                 |Move-in
+Tid som trengs:       |4
+Manpower som trengs:  |4
+Tidligst startstid:   |18
+Senest startstid:     |18
+Slack:                |0
+Avhengige tasks (ID): |Ingen.
+____________________________________________
+
+
+**************** PROGRAM AVSLUTTES ****************
+
+Fant en loop, tallet er ID:
+[1 --> 2 --> 3 --> 6 --> 1]
+
+**************** PROGRAM AVSLUTTES ****************
+
+Time: 0
+               Starting: 9
+          Current staff: 10
+
+Time: 3
+               Finished: 9
+               Starting: 10
+               Starting: 11
+               Starting: 12
+               Starting: 14
+               Starting: 16
+               Starting: 17
+          Current staff: 56
+
+Time: 4
+               Finished: 11
+               Starting: 18
+               Starting: 19
+               Starting: 20
+          Current staff: 64
+
+Time: 5
+               Finished: 10
+               Starting: 2
+          Current staff: 70
+
+Time: 12
+               Finished: 2
+          Current staff: 60
+
+Time: 16
+               Finished: 20
+               Starting: 23
+          Current staff: 61
+
+Time: 28
+               Finished: 14
+               Starting: 15
+          Current staff: 61
+
+Time: 29
+               Finished: 19
+          Current staff: 57
+
+Time: 33
+               Finished: 12
+               Starting: 13
+          Current staff: 57
+
+Time: 38
+               Finished: 16
+          Current staff: 45
+
+Time: 44
+               Finished: 18
+               Starting: 21
+          Current staff: 46
+
+Time: 46
+               Finished: 23
+               Starting: 26
+          Current staff: 48
+
+Time: 48
+               Finished: 15
+               Finished: 17
+               Starting: 22
+          Current staff: 29
+
+Time: 51
+               Finished: 13
+               Starting: 8
+          Current staff: 24
+
+Time: 59
+               Finished: 21
+               Starting: 24
+          Current staff: 26
+
+Time: 63
+               Finished: 8
+               Starting: 3
+          Current staff: 29
+
+Time: 64
+               Finished: 3
+               Finished: 22
+               Starting: 25
+          Current staff: 21
+
+Time: 66
+               Finished: 26
+          Current staff: 14
+
+Time: 119
+               Finished: 24
+               Starting: 4
+          Current staff: 13
+
+Time: 124
+               Finished: 25
+               Starting: 5
+               Starting: 27
+          Current staff: 22
+
+Time: 134
+               Finished: 4
+          Current staff: 16
+
+Time: 136
+               Finished: 5
+          Current staff: 10
+
+Time: 149
+               Finished: 27
+               Starting: 28
+               Starting: 29
+          Current staff: 20
+
+Time: 179
+               Finished: 28
+          Current staff: 10
+
+Time: 186
+               Finished: 29
+               Starting: 1
+               Starting: 6
+               Starting: 7
+               Starting: 30
+          Current staff: 29
+
+Time: 204
+               Finished: 7
+          Current staff: 23
+
+Time: 206
+               Finished: 1
+               Finished: 30
+               Starting: 31
+          Current staff: 13
+
+Time: 213
+               Finished: 6
+          Current staff: 7
+
+Time: 218
+               Finished: 31
+
+**** Shortest possible project excecution is 218 ****
+
+
+____________________________________________
+
+ID:                   |1
+Navn:                 |Install-pavement
+Tid som trengs:       |20
+Manpower som trengs:  |10
+Tidligst startstid:   |186
+Senest startstid:     |198
+Slack:                |12
+Avhengige tasks (ID): |Ingen.
+____________________________________________
+
+ID:                   |2
+Navn:                 |Install-railing
+Tid som trengs:       |7
+Manpower som trengs:  |10
+Tidligst startstid:   |5
+Senest startstid:     |211
+Slack:                |206
+Avhengige tasks (ID): |Ingen.
+____________________________________________
+
+ID:                   |3
+Navn:                 |Install-ticketmachine
+Tid som trengs:       |1
+Manpower som trengs:  |10
+Tidligst startstid:   |63
+Senest startstid:     |217
+Slack:                |154
+Avhengige tasks (ID): |Ingen.
+____________________________________________
+
+ID:                   |4
+Navn:                 |Paint-tower-1-with-arch
+Tid som trengs:       |15
+Manpower som trengs:  |6
+Tidligst startstid:   |119
+Senest startstid:     |203
+Slack:                |84
+Avhengige tasks (ID): |Ingen.
+____________________________________________
+
+ID:                   |5
+Navn:                 |Paint-tower-2
+Tid som trengs:       |12
+Manpower som trengs:  |6
+Tidligst startstid:   |124
+Senest startstid:     |206
+Slack:                |82
+Avhengige tasks (ID): |Ingen.
+____________________________________________
+
+ID:                   |6
+Navn:                 |Paint-trusses
+Tid som trengs:       |27
+Manpower som trengs:  |6
+Tidligst startstid:   |186
+Senest startstid:     |191
+Slack:                |5
+Avhengige tasks (ID): |Ingen.
+____________________________________________
+
+ID:                   |7
+Navn:                 |Paint-cables-and-rods
+Tid som trengs:       |18
+Manpower som trengs:  |6
+Tidligst startstid:   |186
+Senest startstid:     |200
+Slack:                |14
+Avhengige tasks (ID): |Ingen.
+____________________________________________
+
+ID:                   |8
+Navn:                 |Put-lane-tunnel-and-intersection
+Tid som trengs:       |12
+Manpower som trengs:  |7
+Tidligst startstid:   |51
+Senest startstid:     |194
+Slack:                |143
+Avhengige tasks (ID): |3. 31. 
+____________________________________________
+
+ID:                   |9
+Navn:                 |Setup-barrack
+Tid som trengs:       |3
+Manpower som trengs:  |10
+Tidligst startstid:   |0
+Senest startstid:     |0
+Slack:                |0
+Avhengige tasks (ID): |10. 11. 12. 14. 16. 17. 
+____________________________________________
+
+ID:                   |10
+Navn:                 |Prepare-storage
+Tid som trengs:       |2
+Manpower som trengs:  |4
+Tidligst startstid:   |3
+Senest startstid:     |209
+Slack:                |206
+Avhengige tasks (ID): |2. 
+____________________________________________
+
+ID:                   |11
+Navn:                 |Rig-ramspace-reinforcing
+Tid som trengs:       |1
+Manpower som trengs:  |4
+Tidligst startstid:   |3
+Senest startstid:     |8
+Slack:                |5
+Avhengige tasks (ID): |18. 19. 20. 
+____________________________________________
+
+ID:                   |12
+Navn:                 |Build-tunnel
+Tid som trengs:       |30
+Manpower som trengs:  |12
+Tidligst startstid:   |3
+Senest startstid:     |146
+Slack:                |143
+Avhengige tasks (ID): |13. 
+____________________________________________
+
+ID:                   |13
+Navn:                 |Clean-tunnel
+Tid som trengs:       |18
+Manpower som trengs:  |12
+Tidligst startstid:   |33
+Senest startstid:     |176
+Slack:                |143
+Avhengige tasks (ID): |8. 
+____________________________________________
+
+ID:                   |14
+Navn:                 |Build-intersection
+Tid som trengs:       |25
+Manpower som trengs:  |12
+Tidligst startstid:   |3
+Senest startstid:     |149
+Slack:                |146
+Avhengige tasks (ID): |15. 
+____________________________________________
+
+ID:                   |15
+Navn:                 |Clean-intersection
+Tid som trengs:       |20
+Manpower som trengs:  |12
+Tidligst startstid:   |28
+Senest startstid:     |174
+Slack:                |146
+Avhengige tasks (ID): |8. 
+____________________________________________
+
+ID:                   |16
+Navn:                 |Build-towerfoundation-1
+Tid som trengs:       |35
+Manpower som trengs:  |12
+Tidligst startstid:   |3
+Senest startstid:     |14
+Slack:                |11
+Avhengige tasks (ID): |21. 
+____________________________________________
+
+ID:                   |17
+Navn:                 |Build-towerfoundation-2
+Tid som trengs:       |45
+Manpower som trengs:  |12
+Tidligst startstid:   |3
+Senest startstid:     |3
+Slack:                |0
+Avhengige tasks (ID): |22. 
+____________________________________________
+
+ID:                   |18
+Navn:                 |Make-armouring-tower-1
+Tid som trengs:       |40
+Manpower som trengs:  |4
+Tidligst startstid:   |4
+Senest startstid:     |9
+Slack:                |5
+Avhengige tasks (ID): |21. 
+____________________________________________
+
+ID:                   |19
+Navn:                 |Make-armouring-tower-2
+Tid som trengs:       |25
+Manpower som trengs:  |4
+Tidligst startstid:   |4
+Senest startstid:     |23
+Slack:                |19
+Avhengige tasks (ID): |22. 
+____________________________________________
+
+ID:                   |20
+Navn:                 |Make-armouring-arch
+Tid som trengs:       |12
+Manpower som trengs:  |4
+Tidligst startstid:   |4
+Senest startstid:     |144
+Slack:                |140
+Avhengige tasks (ID): |23. 
+____________________________________________
+
+ID:                   |21
+Navn:                 |Encase-and-armour-tower-1
+Tid som trengs:       |15
+Manpower som trengs:  |5
+Tidligst startstid:   |44
+Senest startstid:     |49
+Slack:                |5
+Avhengige tasks (ID): |24. 
+____________________________________________
+
+ID:                   |22
+Navn:                 |Encase-and-armour-tower-2
+Tid som trengs:       |16
+Manpower som trengs:  |5
+Tidligst startstid:   |48
+Senest startstid:     |48
+Slack:                |0
+Avhengige tasks (ID): |25. 
+____________________________________________
+
+ID:                   |23
+Navn:                 |Encase-and-armour-arch
+Tid som trengs:       |30
+Manpower som trengs:  |5
+Tidligst startstid:   |16
+Senest startstid:     |156
+Slack:                |140
+Avhengige tasks (ID): |26. 
+____________________________________________
+
+ID:                   |24
+Navn:                 |Cast-tower-1
+Tid som trengs:       |60
+Manpower som trengs:  |7
+Tidligst startstid:   |59
+Senest startstid:     |64
+Slack:                |5
+Avhengige tasks (ID): |4. 27. 
+____________________________________________
+
+ID:                   |25
+Navn:                 |Cast-tower-2
+Tid som trengs:       |60
+Manpower som trengs:  |7
+Tidligst startstid:   |64
+Senest startstid:     |64
+Slack:                |0
+Avhengige tasks (ID): |5. 27. 
+____________________________________________
+
+ID:                   |26
+Navn:                 |Cast-arch
+Tid som trengs:       |20
+Manpower som trengs:  |7
+Tidligst startstid:   |46
+Senest startstid:     |186
+Slack:                |140
+Avhengige tasks (ID): |31. 
+____________________________________________
+
+ID:                   |27
+Navn:                 |Stretch-two-maincables
+Tid som trengs:       |25
+Manpower som trengs:  |10
+Tidligst startstid:   |124
+Senest startstid:     |124
+Slack:                |0
+Avhengige tasks (ID): |28. 29. 
+____________________________________________
+
+ID:                   |28
+Navn:                 |Build-truss-1-with-rods
+Tid som trengs:       |30
+Manpower som trengs:  |10
+Tidligst startstid:   |149
+Senest startstid:     |156
+Slack:                |7
+Avhengige tasks (ID): |1. 6. 7. 30. 
+____________________________________________
+
+ID:                   |29
+Navn:                 |Build-truss-2-with-rods
+Tid som trengs:       |37
+Manpower som trengs:  |10
+Tidligst startstid:   |149
+Senest startstid:     |149
+Slack:                |0
+Avhengige tasks (ID): |1. 6. 7. 30. 
+____________________________________________
+
+ID:                   |30
+Navn:                 |Cast-lane-on-truss
+Tid som trengs:       |20
+Manpower som trengs:  |7
+Tidligst startstid:   |186
+Senest startstid:     |186
+Slack:                |0
+Avhengige tasks (ID): |31. 
+____________________________________________
+
+ID:                   |31
+Navn:                 |Polish-lane-on-arch
+Tid som trengs:       |12
+Manpower som trengs:  |7
+Tidligst startstid:   |206
+Senest startstid:     |206
+Slack:                |0
+Avhengige tasks (ID): |Ingen.
+____________________________________________
+
+
+**************** PROGRAM AVSLUTTES ****************
+
