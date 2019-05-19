@@ -1,0 +1,18 @@
+# Pasienter (id, navn, fodselsnummer, adresse, postnr)
+0, Bjarte Paul Tjøstheim, 11111143521, Veigata 9, 0123
+
+# Legemidler (ID, navn, type, pris, virkestoff [, styrke])
+0, Predizol, a, 450.00, 75.0, 8
+1, Paralgin Forte, b, 65.00, 400.0, 5
+2, Morfin, a, 254.60, 100.0, 70
+3, Ventoline, c, 63.60, 20.0
+
+# Leger (navn, avtalenr / 0 hvis ingen avtale)
+Dr. Meppel, 0
+Dr. Oetker, 69
+Dr. Ueland, 3857
+
+# Resepter (id, hvit/blaa, pasientID, legenavn, legemiddelID, reit)
+0, blaa, 0, Dr. Oetker, 2, 3
+
+# Slutt

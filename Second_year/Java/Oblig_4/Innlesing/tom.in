@@ -1,0 +1,9 @@
+# Pasienter (id, navn, fodselsnummer, adresse, postnr)
+
+# Legemidler (ID, navn, type, pris, virkestoff [, styrke])
+
+# Leger (navn, avtalenr / 0 hvis ingen avtale)
+
+# Resepter (id, hvit/blaa, pasientID, legenavn, legemiddelID, reit)
+
+# Slutt
