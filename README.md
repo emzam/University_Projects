@@ -1,4 +1,4 @@
-# University_Projects (Bachelor)
+# University_Projects
 
 Each folder contains programs made in that specific year.
 
